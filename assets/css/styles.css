@@ -1,0 +1,17 @@
+:root {
+    /* Header & footer colors */
+    --dark-bg: #1f2937;
+    --light-text: #f9faf8;
+    --subheader-text: #e5e7eb;
+
+    /* CTA Colors */
+    --buttonColor: #3882f6;
+    --blue-bg: #3882f6;
+
+    /* Information section */
+    --informationHeaderText: #1f1937;
+
+    /* Quote section */
+    --quoteBG: #e5e7eb;
+    --quoteText: #1f2937;
+}
