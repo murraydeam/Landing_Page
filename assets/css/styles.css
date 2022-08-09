@@ -15,3 +15,191 @@
     --quoteBG: #e5e7eb;
     --quoteText: #1f2937;
 }
+
+body {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    
+    padding: 0px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 8px;
+}
+
+.nav .logo {
+    font-size: 36px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav,
+.header {
+    display: flex;
+    padding: 16px 32px;
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    max-width: 80rem;
+    gap: 52px;
+}
+
+
+.header-content button {
+    padding: 4px 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--buttonColor);
+
+}
+
+.information {
+    padding: 32px;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-content {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    max-width: 80rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.information-content button {
+    width: 160px;
+    height: 160px;
+    background-color: inherit;
+    border: 5px solid var(--buttonColor);
+
+}
+
+.box {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quoteBG);
+    font-style: italic;
+    height: 500px;
+    padding: 0px 64px;
+    font-size: 16px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    max-width: 80rem;
+}
+
+.quote h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+.CTA {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.CTA-Content {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--blue-bg);
+    color: var(--light-text);
+}
+
+.CTA-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CTA-right {
+    display: flex;
+    justify-content: center;
+}
+
+
+.CTA-left h1,
+.CTA-left h2 {
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+.CTA-right button {
+    background-color: var(--buttonColor);
+    border: 2;
+    border-style: solid;
+    color: var(--light-text);
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+
+
+
+
